@@ -6,13 +6,5 @@ using namespace std;
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 int main() {
-	cout << "                Name       : ";
-	SetConsoleTextAttribute(hConsole, 14);
-	cout << "\"The war and the peace\"" << endl;
-	SetConsoleTextAttribute(hConsole, 15);
-	cout << "                Avtor      : L.N. Tolstoj" << endl;
-	cout << "                Izdatelstvo: Piter" << endl;
-	cout << "                Pages      : ";
-	SetConsoleTextAttribute(hConsole, 13);
-	cout << "500" << endl; 
+	cout << "\"\a\a\aU lukomor'a dub zelenij,\n\a\a\aZlataya zep na dupe tom,\n\a\a\aI dnem i nochju kot uchenij\n\a\a\avse hodit po cepi krugom\"" << endl;
 }
