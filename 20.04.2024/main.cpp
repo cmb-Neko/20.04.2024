@@ -14,5 +14,5 @@ int main() {
 	cout << "                Izdatelstvo: Piter" << endl;
 	cout << "                Pages      : ";
 	SetConsoleTextAttribute(hConsole, 13);
-	cout << "500" << endl;
+	cout << "500" << endl; 
 }
