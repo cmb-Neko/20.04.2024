@@ -6,10 +6,14 @@
 using namespace std;
 
 int main() {
-	double L, R, S;
-	cout << "Enter length: ";
-	cin >> L;
-	R = (L / (2 * M_PI));
-	S = (M_PI * (R * 2));
+	double S, v, t, a;
+	cout << "Enter velocity: ";
+	cin >> v;
+	cout << "Enter time: ";
+	cin >> t;
+	cout << "Enter acceleration: ";
+	cin >> a;
+
+	S = ((v * t) + ((a * (t * 2)) / 2));
 	cout << S << endl;
 }
